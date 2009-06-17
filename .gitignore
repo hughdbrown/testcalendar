@@ -1,4 +1,4 @@
 *.pyc
 *.kpf
 django-gencal/
-events/
+db/
