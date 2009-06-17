@@ -1,0 +1,4 @@
+*.pyc
+*.kpf
+django-gencal/
+events/
