@@ -7,7 +7,7 @@ class Event(models.Model) :
     title = models.CharField(max_length=32)
 
     @models.permalink
-    def get_absolute_url() :
+    def get_absolute_url(self) :
         return ('event', None, {'object_id' : self.id})
     
     def __unicode__(self):

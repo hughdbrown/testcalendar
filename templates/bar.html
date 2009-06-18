@@ -22,6 +22,10 @@ table.cal_month_calendar td, th { border: 1px solid black; }
 {% load gencal %}
 <h1>Simple-Gencal test</h1>
 
+{% comment %}
+{% simple_gencal for event.Event on day %}
+{% endcomment %}
+
 {% simple_gencal for event.Event on day in date with gencal/gencal.html %}
 
 </body>
